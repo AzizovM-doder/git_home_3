@@ -8,9 +8,9 @@
     <link rel="shortcut icon" href="assets/header.png" type="image/x-icon" />
   </head>
   <body>
-    <header>
-      <nav class="bg-[#040D21] text-white fixed top-0 left-0 right-0">
-        <nav class="max-w-6x m-auto flex justify-between items-center p-5">
+    <header class="bg-[#040D21]">
+      <nav class="text-white bg-[#040D21] fixed top-0 left-0 right-0">
+        <nav class="max-w-6xl m-auto flex justify-between items-center p-5">
           <img src="assets/header.png" alt="logo" />
           <ul class="hidden text-xl text-[#E3E3E3] font-medium lg:flex gap-5 items-center">
             <li>Услуги</li>
@@ -72,6 +72,19 @@
             <li>Контакты</li>
         </ul>
       </nav>
+      <section class="max-w-6xl m-auto p-5 pt-32 flex flex-col items-center lg:flex-row md:items-start lg:justify-between md:pt-40 text-white">
+        <aside class="flex flex-col items-center md:items-start gap-5">
+            <h1 class="text-center text-3xl md:text-6xl lg:text-7xl md:text-start font-extrabold">Все виды <br> грузоперевозок</h1>
+            <p class="text-center md:text-lg text-[#DBDBDB] md:text-start font-medium">Мы бережно доставим любой груз от 1 тонны <br class="hidden md:flex">до 20 тонн в любую точку страны!</p>
+            <ul class="list-disc px-5 flex flex-col gap-3 md:gap-7 md:flex-row ">
+                <li>скоропортящиеся </li>
+                <li>крупногабаритные</li>
+                <li>негабаритные грузы</li>
+            </ul>
+            <button class="bg-[#3284FF] font-semibold py-3 px-7 rounded-lg">Рассчитать стоимость</button>
+        </aside>
+        <img width="90%" class="p-5 m-auto lg:w-[470px]" src="assets/image.png" alt="kamaz">
+      </section>
     </header>
   </body>
 </html>
