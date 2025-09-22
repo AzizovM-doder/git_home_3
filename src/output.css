@@ -1848,6 +1848,11 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#BDBDBD\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(189 189 189 / var(--tw-bg-opacity, 1));
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -1997,6 +2002,11 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pt-32 {
   padding-top: 8rem;
 }
@@ -2070,6 +2080,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold {
@@ -2178,6 +2193,25 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#353535\] {
+  --tw-text-opacity: 1;
+  color: rgb(53 53 53 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#818181\] {
+  --tw-text-opacity: 1;
+  color: rgb(129 129 129 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#3284FF\] {
+  --tw-text-opacity: 1;
+  color: rgb(50 132 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .underline {
