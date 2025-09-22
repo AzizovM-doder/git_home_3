@@ -667,12 +667,12 @@ video {
   left: 0px;
 }
 
-.top-0 {
-  top: 0px;
-}
-
 .right-0 {
   right: 0px;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .isolate {
@@ -844,10 +844,6 @@ video {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
-}
-
-.max-w-6xl {
-  max-width: 72rem;
 }
 
 .flex-shrink {
@@ -1368,16 +1364,12 @@ video {
   justify-items: stretch;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1820,14 +1812,24 @@ video {
   border-style: none;
 }
 
+.bg-\[\#040D21\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 13 33 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#3284FF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(50 132 255 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[\#040D21\] {
+.bg-\[\#0A1F42\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(4 13 33 / var(--tw-bg-opacity, 1));
+  background-color: rgb(10 31 66 / var(--tw-bg-opacity, 1));
 }
 
 .decoration-slice {
@@ -1954,9 +1956,19 @@ video {
   padding-right: 0.375rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .text-left {
@@ -2109,6 +2121,11 @@ video {
   color: rgb(51 102 153 / .35);
 }
 
+.text-\[\#E3E3E3\] {
+  --tw-text-opacity: 1;
+  color: rgb(227 227 227 / var(--tw-text-opacity, 1));
+}
+
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity, 1));
@@ -2117,11 +2134,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#E3E3E3\] {
-  --tw-text-opacity: 1;
-  color: rgb(227 227 227 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -2569,12 +2581,12 @@ video {
     display: flex;
   }
 
-  .lg\:flex-col {
-    flex-direction: column;
+  .lg\:hidden {
+    display: none;
   }
 
-  .lg\:gap-1 {
-    gap: 0.25rem;
+  .lg\:flex-col {
+    flex-direction: column;
   }
 
   .lg\:gap-2 {
